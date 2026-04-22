@@ -1,5 +1,5 @@
+local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua"))()
 if getgenv().HacxHubLoaded then
-    local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua"))()
     WindUI:Notify(
         {
             Title = "Hacx Hub",
@@ -52,7 +52,6 @@ local states = {
     controlsLocked = false,
     ticketsUtilizerEnabled = false
 }
-local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua"))()
 local Window =
     WindUI:CreateWindow(
     {
